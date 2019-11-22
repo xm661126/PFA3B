@@ -18,9 +18,17 @@ align-items: center;
 padding: 20rpx;
 
 }
+.xinwenlan3{
+  display: flex;
+}
 .biaozhi1{
+  margin-top: 20rpx;
   margin-right: 20rpx;
   width: 40rpx;
   height: 40rpx;
+
+}
+.biaoti2{
+  display: flex;
 
 }

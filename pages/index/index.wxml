@@ -5,8 +5,11 @@
     <image class="xinwenlianbo" src="/images/xinwenlianbo.png" mode="scaleToFill">
     </image>
     <view class="xinwenlan2">
-      <image class="biaozhi1" src="/images/biaozhi1.png"></image>
-      <view class="guonei" id="gc" bindtap="getInformation">国内</view>
+      <view class="xinwenlan3" wx:for="{{citylist}}" >
+        <image class="biaozhi1" src="/images/biaozhi1.png"></image>
+        <view class="biaoti2"  bindtap="getInformation">{{item}}</view>
+        <!-- cityname=cityMap({{item}}) -->
+      </view>
 
     </view>
   </view>
