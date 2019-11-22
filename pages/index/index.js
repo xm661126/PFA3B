@@ -40,7 +40,8 @@ Page({
     })
   },
 
-  getInformation() {
+  getInformation(e) {
+    console.log("getinformation:",e)
     wx.showToast({
       title: '正在链接',
     })

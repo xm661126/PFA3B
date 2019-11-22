@@ -7,7 +7,7 @@
     <view class="xinwenlan2">
       <view class="xinwenlan3" wx:for="{{citylist}}" >
         <image class="biaozhi1" src="/images/biaozhi1.png"></image>
-        <view class="biaoti2"  bindtap="getInformation">{{item}}</view>
+        <view class="biaoti2"  bindtap="getInformation" id='{{item}}' data-index='{{index}}' data-click='yes'>{{item}}</view>
         <!-- cityname=cityMap({{item}}) -->
       </view>
 
