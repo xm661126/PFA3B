@@ -6,7 +6,7 @@
     </image>
     <view class="xinwenlan2">
       <image class="biaozhi1" src="/images/biaozhi1.png"></image>
-      <view class="guonei" id="gc" bindtap="getnwow">国内</view>
+      <view class="guonei" id="gc" bindtap="getInformation">国内</view>
 
     </view>
   </view>
