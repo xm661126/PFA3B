@@ -1,5 +1,5 @@
 <!--index.wxml-->
 
 <view class="container">
-  
+  <view>123</view> 
 </view>
