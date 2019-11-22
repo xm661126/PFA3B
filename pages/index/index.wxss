@@ -19,6 +19,7 @@ padding: 20rpx;
 
 }
 .biaozhi1{
+  margin-right: 20rpx;
   width: 40rpx;
   height: 40rpx;
 
