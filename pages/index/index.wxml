@@ -1,5 +1,13 @@
 <!--index.wxml-->
 
 <view class="container">
-  
+  <view class="xinwenlan">
+    <image class="xinwenlianbo" src="/images/xinwenlianbo.png" mode="scaleToFill">
+    </image>
+    <view class="xinwenlan2">
+      <image class="biaozhi1" src="/images/biaozhi1.png"></image>
+      <view class="guonei" id="gc" bindtap="getnwow">国内</view>
+
+    </view>
+  </view>
 </view>

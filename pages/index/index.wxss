@@ -1,5 +1,25 @@
 /**index.wxss**/
+.container{
+  padding-top: 0rpx;
+  padding-left: 0rpx;
+}
+.xinwenlan{
 
-.NavigationBar{
-left: orpx;
+align-items: center;
+}
+.xinwenlianbo{
+  
+  width: 750rpx;
+  height: 300rpx;
+}
+.xinwenlan2{
+display: flex; 
+align-items: center;
+padding: 20rpx;
+
+}
+.biaozhi1{
+  width: 40rpx;
+  height: 40rpx;
+
 }
