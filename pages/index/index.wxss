@@ -1,0 +1,5 @@
+/**index.wxss**/
+
+.NavigationBar{
+left: orpx;
+}
