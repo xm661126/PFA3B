@@ -32,3 +32,31 @@ padding: 20rpx;
   display: flex;
 
 }
+.dongtainews{
+width:100%;
+text-align: center;
+background: lightcyan
+}
+.originxiaobiaoti1{
+text-align: center;
+font-weight: bolder;
+color: rgb(27, 84, 107)
+}
+.originimage1{
+width: 100%;
+
+
+/* align-items: center;
+justify-content: center;
+text-align: center; */
+
+}
+.originsource{
+text-align: right;
+font-size: 20rpx;
+line-height: 30rpx;
+background-color: #F3F3F3;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-weight: bold
+
+}

@@ -14,11 +14,11 @@
     </view>
   </view>
   <scroll-view scroll-y>
-    <view class='dongtainews'>
-      <view class='originxiaobiaoti1'> {{ newsResult[0].title}}</view>
-      <image class="originimage1" src="{{newsResult[0].firstImage}}"></image>
+    <view class='dongtainews' wx:for="{{newsResult}}">
+      <view class='originxiaobiaoti1'> {{item.title}}</view>
+      <image class="originimage1" src="{{item.firstImage}} "></image>
 
-      <view class=""></view>
+      <view class="originsource ">{{item.source}}"    "{{item.date}}</view>
     </view>
   </scroll-view>
 </view>
