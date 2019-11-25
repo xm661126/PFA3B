@@ -1,6 +1,9 @@
 //index.js
 //获取应用实例
 const app = getApp()
+data:{
+name:"我爱吃蔬菜"
+}
 const cityMap = {
   '国内': 'gn',
   '国际': 'gj',
@@ -91,6 +94,8 @@ Page({
   wx.showToast({
     title: '正在为您跳转页面',
   })
-
+  wx.navigateTo({
+    url: '/pages/list/list',
+  })
   }
 })
