@@ -38,17 +38,13 @@ text-align: center;
 background: lightcyan
 }
 .originxiaobiaoti1{
+font-size: 35rpx;
 text-align: center;
 font-weight: bolder;
 color: rgb(27, 84, 107)
 }
 .originimage1{
-width: 100%;
-
-
-/* align-items: center;
-justify-content: center;
-text-align: center; */
+width:500rpx;
 
 }
 .originsource{
