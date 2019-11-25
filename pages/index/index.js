@@ -8,7 +8,7 @@ const cityMap = {
   '娱乐': 'yl',
   '军事': 'js',
   '体育': 'ty',
-  '其他': 'qt',
+  '其他': 'other',
 }
 Page({
   data: {
