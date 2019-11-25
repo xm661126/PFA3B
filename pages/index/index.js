@@ -15,13 +15,10 @@ Page({
     citylist: ['国内', '国际', '财经', '娱乐', '军事', '体育', '其他'],
     num1: 0,
     newsResult:[],
-    originxiabiaot1:[],
-    originwenben1: [],
-    originimage1: [],
-    originsource1: [],
     origindata1: [],
   },
   onLoad() {
+    // var origindata2=this;
     wx.setNavigationBarTitle({
       title: '最热新闻news',
     })
@@ -30,6 +27,8 @@ Page({
       frontColor: '#ffffff',
       backgroundColor: '#1BC3B8',
     })
+    let origindata1=[]
+    let newsResult=[]
     wx.request({
       url: 'https://test-miniprogram.com/api/news/list',
       data: {
@@ -39,14 +38,19 @@ Page({
         console.log(res);
         let newsResult = res.data.result;
         console.log(newsResult[0].title);
-       for(let i=0;i<8;i+=1){
+      //  for(let i=0;i<8;i+=1){
+      //    origindata1.push({
+      //     title: newsResult[i].title,
+      //     firstImage: newsResult([i]).firstImage,
+      //     source: newsResult[i].source,
+      //     date: newsResult[i].date,
+
+      //    })
+      //  }
         this.setData({
-          originxiabiaot1: newsResult[i].title,
-          // originimage1(i): newsResul([i]).firstImage,
-          // originsource1(i): newsResult[i].source,
-          // origindata1(i): newsResult[i].date,
+          newsResult: newsResult
         })
-       }
+       
       }
     })
   },
