@@ -1,3 +1,10 @@
 <!--pages/list/list.wxml-->
+<view class="container2">
+  <view class="newsbiaoti1"> {{newsResult2.title}} </view>
+    <view class="container3">
+      <view class='newssourcce2'>{{newsResult2.source}}</view>
+      <view class='readcount'>"阅读 :" {{newsResult2.readCount}}</view>
+    </view>
+  
 
-<view>hello world!</view>
+</view>

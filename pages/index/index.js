@@ -70,8 +70,8 @@ Page({
     console.log("getinformation:", e)
     console.log(e.currentTarget.id)
     // type:e.currentTarget.id
-    app.globalData.globaltype = cityMap[e.currentTarget.id]
-    console.log("type information" + app.globalData.globaltype)
+    // app.globalData.globaltype = cityMap[e.currentTarget.id]
+    // console.log("type information" + app.globalData.globaltype)
     console.log(cityMap[e.currentTarget.id],"第二行")
 
     wx.showToast({
@@ -97,10 +97,14 @@ Page({
 
     //我是辅助线
   },
-  onTapDayNews() {
+  onTapDayNews(e) {
   wx.showToast({
     title: '正在为您跳转页面',
   })
+  console.log(e)
+  app.globalData.globaltype = e.currentTarget.id
+  console.log(app.globalData.globaltype)
+    // e.currentTarget.id
   wx.navigateTo({
     url: '/pages/list/list',
   })
