@@ -7,8 +7,20 @@
     <view class='readcount'>"阅读 :" {{newsResult2.readCount}}</view>
 
   </view>
-  <!-- <image class="image1" src="{{newsResult2.firstImage}"> </image> -->
+  <view class='dongtainews2' wx:for="{{newsResult2.content}}">
+    <!-- <block wx:if="{{{{item.type}}='p'}}">
+      <view>成功啦，播放图片</view>
+    </block> -->
+
+    <view wx:if="{{item.text}}" class="text2">{{item.text}}
+    </view>
+    <view wx:if="{{item.type=='image'}}">
+      <image class="image2" src="{{item.src}}"> </image>
+    </view>
+    <!-- <view wx:else>
+      <image class="image2" src="{{item.src}}"> </image>
+    </view> -->
 
 
-
+  </view>
 </view>
