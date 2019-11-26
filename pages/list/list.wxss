@@ -1,27 +1,30 @@
 /* pages/list/list.wxss */
-.container2{
-  padding: 30rpx;
 
+.container2 {
+  padding: 20rpx;
+ 
 }
-.newsbiaoti1{
-  text-align:center;
+
+.newsbiaoti1 { 
+  text-align: center;
   font-size: 40rpx;
 
 }
-.container3{
-  display: flex;
-  align-items: center;
-  align-content: space-between;
 
+.container3 {
+  display:flex-start-end;
+  align-items: center;
+  width: 100%;
 }
-.newssourcce2{
+
+.newssourcce2 {
   text-align: left;
   font-size: 30rpx;
 }
-.readcount{
-margin-right: 5rpx;
-text-align: right;
-font-size: 25rpx;
-opacity: 0.8;
-font-weight: bold;
+
+.readcount {
+text-align: end;
+  font-size: 25rpx;
+  opacity: 0.8;
+  font-weight: bold;
 }
