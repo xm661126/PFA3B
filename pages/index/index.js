@@ -1,6 +1,6 @@
 //index.js
 //获取应用实例
-const app = getApp()
+var app = getApp()
 data:{
 name:"我爱吃蔬菜"
 }
@@ -19,6 +19,7 @@ Page({
     num1: 0,
     newsResult: [],
     origindata1: [],
+    type:"",
   },
   onLoad() {
     // var origindata2=this;
@@ -64,10 +65,15 @@ Page({
   },
 
   getInformation(e) {
+    let type=""
     let newsResult = []
     console.log("getinformation:", e)
     console.log(e.currentTarget.id)
-    console.log(cityMap[e.currentTarget.id])
+    // type:e.currentTarget.id
+    app.globalData.globaltype = cityMap[e.currentTarget.id]
+    console.log("type information" + app.globalData.globaltype)
+    console.log(cityMap[e.currentTarget.id],"第二行")
+
     wx.showToast({
       title: '正在链接',
     })
@@ -79,6 +85,7 @@ Page({
       },
       success: res => {
         console.log(res);
+        console.log(type, "get type information");
         newsResult = res.data.result;
         console.log(newsResult[0].title);
         this.setData({

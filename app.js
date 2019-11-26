@@ -34,6 +34,7 @@ App({
     })
   },
   globalData: {
-    userInfo: null
+    userInfo: null,
+    globaltype:"我爱吃蔬菜"
   }
 })

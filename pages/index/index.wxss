@@ -10,7 +10,7 @@ align-items: center;
 .xinwenlianbo{
   
   width: 750rpx;
-  height: 300rpx;
+  height: 250rpx;
 }
 .xinwenlan2{
 display: flex; 
