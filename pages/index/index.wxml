@@ -21,4 +21,5 @@
       <view class="originsource ">{{item.source}}"    "{{item.date}}</view>
     </view>
   </scroll-view>
+  <image src="/images/return.jpg" class='goTop' hidden='{{!floorstatus}}' bindtap="goTop"></image>
 </view>
