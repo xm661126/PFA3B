@@ -2,24 +2,30 @@
 .container{
   padding-top: 0rpx;
   padding-left: 0rpx;
+  padding-bottom: 0rpx;
 }
 .xinwenlan{
-
+/* position: fixed; */
 align-items: center;
 }
 .xinwenlianbo{
   
   width: 750rpx;
   height: 250rpx;
+
 }
 .xinwenlan2{
+height: 65rpx;
 display: flex; 
+width: 100%;
 align-items: center;
 padding: 10rpx;
-
+background-color: lightcyan;
+border-bottom: 5rpx dotted black;
 }
 .xinwenlan3{
   display: flex;
+  
 }
 .biaozhi1{
   margin-top: 20rpx;
@@ -35,7 +41,8 @@ padding: 10rpx;
 .dongtainews{
 width:100%;
 text-align: center;
-background: lightcyan
+background: lightcyan;
+
 }
 .originxiaobiaoti1{
 font-size: 40rpx;

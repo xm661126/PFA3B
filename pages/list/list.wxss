@@ -33,7 +33,7 @@ align-content: center;
 margin: 40rpx;
 }
 .dongtainews2{
-  padding: 30rpx;
+  padding: 20rpx;
 }
 .text2{
   font-size: 30rpx;

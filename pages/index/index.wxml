@@ -13,9 +13,9 @@
 
     </view>
   </view>
-  <scroll-view scroll-y>
-    <view class='dongtainews' wx:for="{{newsResult}}">
-      <view class='originxiaobiaoti1' id="{{item.id}}" bindtap="onTapDayNews"> {{item.title}}</view>
+  <scroll-view scroll-y class="zhongjiantiao">
+    <view class='dongtainews' id="{{item.id}}" bindtap="onTapDayNews" wx:for="{{newsResult}}">
+      <view class='originxiaobiaoti1'> {{item.title}}</view>
       <image class="originimage1"  src="{{item.firstImage}} "></image>
 
       <view class="originsource ">{{item.source}}"    "{{item.date}}</view>
