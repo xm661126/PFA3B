@@ -128,7 +128,7 @@ Page({
   wx.showToast({
     title: '正在为您跳转页面',
   })
-  console.log(e)
+  console.log('显示onTap对象',e)
   app.globalData.globaltype = e.currentTarget.id
   console.log(app.globalData.globaltype)
     // e.currentTarget.id

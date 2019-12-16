@@ -7,19 +7,23 @@
 .xinwenlan{
 /* position: fixed; */
 align-items: center;
+ position: relative;
+ height: auto;
 }
 .xinwenlianbo{
-  
+ position: relative;
+ bottom: 0;
   width: 750rpx;
   height: 250rpx;
 
 }
 .xinwenlan2{
+position: relativ;
 height: 65rpx;
 display: flex; 
 width: 100%;
 align-items: center;
-padding: 10rpx;
+/* padding: 10rpx; */
 background-color: lightcyan;
 border-bottom: 5rpx dotted black;
 }
